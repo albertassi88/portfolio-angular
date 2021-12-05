@@ -1,0 +1,34 @@
+section.container-home {
+  width: 100vw;
+  height: 90vh;
+  background-color: #b8c1ec;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-home {
+  width: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 300px;
+  height: 350px;
+  border-radius: 50%;
+}
+
+.box-home > h2 {
+  font-size: 50px;
+  text-align: center;
+  margin-top: 20px;
+  color: rgb(24, 23, 23);
+}
+
+.color {
+  color: #232946;
+}

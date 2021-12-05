@@ -22,8 +22,10 @@ img {
 }
 
 article.box-about > p {
-  font-size: 35px;
+  font-size: 34px;
+  font-weight: bolder;
   width: 780px;
   margin-left: 25px;
   text-align: justify;
+  color: rgb(24, 23, 23);
 }
