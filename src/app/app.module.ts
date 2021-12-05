@@ -1,8 +1,10 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
+import { AppRoutingModule } from './modules/app.routing.module';
 import { AppComponent } from './app.component';
 import { HomeModule } from './modules/home/home.module';
+import { AboutModule } from './modules/about/about.module';
 
 @NgModule({
   declarations: [
@@ -10,7 +12,9 @@ import { HomeModule } from './modules/home/home.module';
   ],
   imports: [
     BrowserModule,
-    HomeModule
+    AppRoutingModule,
+    HomeModule,
+    AboutModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
