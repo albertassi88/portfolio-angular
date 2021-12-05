@@ -1,18 +1,25 @@
 <header>
   <nav>
     <ul>
-      <li routerLinkActive="active" >
-        <a routerLink="/">
+      <li>
+        <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">
           Home
         </a>
       </li>
-      <li routerLinkActive="active" >
-        <a routerLink="sobre">
+      <li>
+        <a routerLink="sobre" routerLinkActive="active">
           Sobre
+        </a>
+      </li>
+      <li>
+        <a routerLink="habilidades" routerLinkActive="active">
+          Habilidades
         </a>
       </li>
     </ul>
   </nav>
 </header>
+
+
 
 
