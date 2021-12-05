@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
-import { PortfolioModule } from './modules/portfolio.module';
+import { HomeModule } from './modules/home/home.module';
 
 @NgModule({
   declarations: [
@@ -10,7 +10,7 @@ import { PortfolioModule } from './modules/portfolio.module';
   ],
   imports: [
     BrowserModule,
-    PortfolioModule
+    HomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
